@@ -1,0 +1,77 @@
+* {
+    margin:0;
+}
+
+html, body {
+height: 100%;
+}
+body{
+    font-family:arial, sans-serif;
+    background-color:#999;
+}
+
+header {
+    display:block;
+    position:fixed;
+    padding:10px;
+    background-color:rgb(120, 74, 126);
+    width:100%;
+}
+
+main {
+    display:block;
+    background-image: url("./images/background.png");
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+}
+
+nav a:visited, nav a:link {
+    color:whitesmoke;
+    text-decoration:none;
+}
+nav > ul {
+    display:inline;
+    padding:0;
+}
+
+nav > ul > li {
+    display:inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+}
+
+footer {
+    padding:15px;
+}
+
+aside, article  {
+    padding : 2em;
+}
+
+aside > img{
+    text-align: center;
+}
+
+
+.pie {
+    width:200px;
+    height:200px;
+    margin:10px;
+    background-color:#fff;
+    border: solid 1px #ccc;
+}
+
+.pie img{
+    width:100%px;
+}
+.pie title {
+    font-size:900;
+}
+
+.pie button{
+    background-color:orange;
+    padding: 7px;
+    border: solid 1px rgb(156, 57, 131);
+    border-radius: 5px;
+}
